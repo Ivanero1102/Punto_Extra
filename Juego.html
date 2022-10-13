@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./Portada.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body background="./imagenes/juego_coche.gif";>
+        <div class="titulo">
+            <h1>DON'T CRASH THE CAR</h1>
+        </div>
+        <div class="contenedor">
+            <div>
+                <form method="post" action="Juego_Coche.php">
+                    <h3>Elija una dificultad:<br></h3>
+                    <select name="tamaño">
+                        <option value=5>Facil</option>
+                        <option value=10>Medio</option>
+                        <option value=25>Dificil</option>
+                    </select>
+                    <h3><input type="submit" name="botonEnviar" value="Enviar datos"></h3>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+    background: url("./imagenes/juego_coche.gif") no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    opacity: 1;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.7);
+    height: 200px;
+    width: 400px;
+    margin-top: 20%;
+    padding-top: 25px;
+    border-radius: 50%;
+}
+
+select{
+    margin-bottom: 20px;
+}
