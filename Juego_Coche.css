@@ -11,12 +11,40 @@ tr{
 
 td{
     width: 30px;
-    border: solid;
+    border: solid black;
 }
- body{
-    background: linear-gradient(to bottom, rgba(230,192,233), rgba(0,0,128)) no-repeat center center fixed;
+body{
+    background: linear-gradient(to bottom, rgba(252,158,255), rgba(0,0,128)) no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
- }
+}
+
+.meta{
+    background-color: violet;
+}
+
+.vacio{
+    background-color: white;
+}
+
+.C{
+    background-color: yellow;
+    color: black;
+}
+
+.M{
+    background-color: grey;
+    color: black;
+}
+
+.B{
+    background: red;
+    color: black;
+}
+
+.F{
+    background-color: green;
+    color: white;
+}

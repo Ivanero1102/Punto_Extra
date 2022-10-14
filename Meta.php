@@ -1,12 +1,12 @@
 <?php
-class bomba{
+class meta{
     private $caracter;
     private $positionX;
     private $positionY;
 
     public function __construct($positionX, $positionY)
     {
-    $this->caracter = "B";
+    $this->caracter = "F";
     $this->positionX = $positionX;
     $this->positionY = $positionY;
     }
