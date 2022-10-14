@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="./Juego_Coche.css"/>
+        <script type="text/javascript" src="javaScrip.js">
+        </script>
     </head>
     <body>
         <table>
@@ -76,9 +78,7 @@
                     }
                     echo "</tr>";
                 }
-                //echo "<pre>";
-                //print_r($matriz);
-                //echo "</pre>";
+                
             ?>
         </table>
     </body>
